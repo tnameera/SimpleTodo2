@@ -81,8 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
                 //display the activity
                 startActivityForResult(i, EDIT_TEXT_CODE);
-
-
             }
         };
         itemsAdapter = new ItemsAdapter(items, onLongClickListener,onClickListener);
