@@ -103,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    // nam nam
     // handle the result of edit activity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
